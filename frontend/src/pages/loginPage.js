@@ -149,7 +149,7 @@ export const loginPage = () => {
       });
 
       if (!response.ok) {
-        divError.innerText = "Credenciales inválidas";
+        divError.innerText = "los datos ingresados no son validos";
         divError.classList.remove("hidden");
         setTimeout(() => {
           divError.classList.add("hidden");
